@@ -7,13 +7,11 @@ body{
 
 
 .screen{
-    background-color: black;
-    color:#ffffff;
+    background-color: rgb(250, 23, 23);
     height: 15vh;
     text-align: right;
     font-size: 50px;
-    margin: 0;
-    
+    margin: 20px
 }
 
 .operator{
@@ -28,15 +26,17 @@ body{
     border-radius: 5px;
     margin-top: 30px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 button{
     font-size: 20px;
     border: none;
     background-color: rgb(255, 238, 0);
-    width: 10.7vw;
-    height: 6.5vh;
-    padding: 0%;
+    width: 138px;
+    height: 40px;
+    padding: 0;
 }
 .numeros{
     display: flex;
@@ -59,8 +59,9 @@ button{
     display: flex;
     flex-direction: row;
     gap: 5px;
+    justify-content: center;
 }
 
-#Equal{
-    width:21.4vw;
+#equal{
+    width: 280px;
 }
